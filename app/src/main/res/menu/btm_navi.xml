@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btmnavi_dashboard"
+        android:icon="@drawable/navi_dash"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/btmnavi_activity"
+        android:icon="@drawable/btm_activity"
+        android:title="Activity" />
+    <item
+        android:id="@+id/btmnavi_todolist"
+        android:icon="@drawable/btm_todo"
+        android:title="Todolist" />
+
+    <item
+        android:id="@+id/btmnavi_chats"
+        android:icon="@drawable/btm_chats"
+        android:title="Chats" />
+    <item
+        android:id="@+id/btmnavi_settings"
+        android:icon="@drawable/btm_settings"
+        android:title="Settings" />
+
+</menu>

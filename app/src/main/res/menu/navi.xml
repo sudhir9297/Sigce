@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navi_profile"
+            android:icon="@drawable/navi_pro"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/navi_event"
+            android:icon="@drawable/navi_event"
+            android:title="Upcoming event" />
+        <item
+            android:id="@+id/navi_classmate"
+            android:icon="@drawable/navi_classmates"
+            android:title="Classmate" />
+        <item
+            android:id="@+id/navi_dept"
+            android:icon="@drawable/navi_dept"
+            android:title="Department" />
+        <item
+            android:id="@+id/navi_clg"
+            android:icon="@drawable/navi_college"
+            android:title="College Detail" />
+
+
+    </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/register_new_user"
+            android:icon="@drawable/user_img"
+            android:title="@string/registration" />
+        <item
+            android:id="@+id/navi_logout"
+            android:icon="@drawable/navi_logout"
+            android:title="Logout" />
+
+    </group>
+</menu>

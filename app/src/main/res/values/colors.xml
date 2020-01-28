@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#031634</color>
+    <color name="colorAccent">#000000</color>
+    <color name="navi_color">#23467e</color>
+    <color name="header_color">#031634</color>
+    <color name="header_light">#062250</color>
+    <color name="WHITE">#FFF</color>
+    <color name="dim_txt_color">#525866</color>
+
+    <!-- my base color used for spalsh-->
+    <color name="ori_blue">#56c9ff</color>
+    <color name="ori_blue2">#0c7efe</color>
+    <color name="grey">#606060</color>
+    <color name="grey_light">#ede9e9</color>
+
+    <!-- color used for dashboard-->
+    <color name="light_blue2">#5e99ff</color>
+    <color name="yellow">#d1c521</color>
+    <color name="light_pink">#f21e60</color>
+    <color name="purple">#8d4de9</color>
+    <color name="light_bluefade">#5a9dee</color>
+    <color name="light_green">#47d26b</color>
+    <color name="light_orange">#f24f50</color>
+    <color name="red">#cc333f</color>
+    <color name="bit_dark_yellow">#f7b00a</color>
+    <color name="aqua_fade">#51cdc8</color>
+
+
+
+
+
+</resources>

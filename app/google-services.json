@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "34531283166",
+    "firebase_url": "https://sigce-connect.firebaseio.com",
+    "project_id": "sigce-connect",
+    "storage_bucket": "sigce-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34531283166:android:2120355229af2f30",
+        "android_client_info": {
+          "package_name": "com.sigce.trinity.sigce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34531283166-ifu1uq997e48cmo3eck2he0kbgv7qve8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sigce.trinity.sigce",
+            "certificate_hash": "1d1a1ede35cc586d3dea472e88d91599f8840826"
+          }
+        },
+        {
+          "client_id": "34531283166-el8e222jn85v3vpm6jd2opti7quaoq5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMjo34hzR_LTTfnGUCJHgaIlIX3wRoJbI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34531283166-el8e222jn85v3vpm6jd2opti7quaoq5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

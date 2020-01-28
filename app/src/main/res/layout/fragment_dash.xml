@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dash">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/header_light">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dash_Display_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/display_name"
+                    android:textColor="@color/WHITE"
+                    android:textSize="45sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                        android:id="@+id/linearlayout1"
+                        style="@style/linear_1"
+                        android:background="@color/light_blue2"
+                        android:orientation="vertical"
+                        app:corner_radius="16dp">
+
+                        <TextView
+                            android:id="@+id/notice1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/notice1"
+                            android:textAlignment="center"
+                            android:textColor="@color/WHITE"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/notice2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/notice2"
+                            android:textColor="@color/WHITE"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/notice3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="2dp"
+                            android:drawablePadding="10dp"
+                            android:drawableRight="@drawable/right_arrow_img"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="@string/notice3"
+                            android:textColor="@color/WHITE"
+                            android:textSize="15dp" />
+
+                    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            style="@style/linear_2"
+                            android:background="@color/yellow"
+                            android:orientation="vertical"
+                            app:corner_radius="16dp">
+
+                            <ImageView
+                                android:id="@+id/attend_img_dash"
+                                style="@style/dash_img"
+                                android:src="@drawable/attendance_img" />
+
+                            <TextView
+                                android:id="@+id/attend_txt_dash"
+                                style="@style/dash_txt"
+                                android:text="@string/attendance" />
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            style="@style/linear_2"
+                            android:background="@color/light_pink"
+                            android:orientation="vertical"
+                            app:corner_radius="16dp">
+
+                            <ImageView
+                                android:id="@+id/dailydiary_img_dash"
+                                style="@style/dash_img"
+                                android:src="@drawable/diary_img" />
+
+                            <TextView
+                                android:id="@+id/dailydiary_txt_dash"
+                                style="@style/dash_txt"
+                                android:text="@string/diary" />
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            style="@style/linear_2"
+                            android:background="@color/purple"
+                            android:orientation="vertical"
+                            app:corner_radius="16dp">
+
+                            <ImageView
+                                android:id="@+id/staff_img_dash"
+                                style="@style/dash_img"
+                                android:src="@drawable/staff_img" />
+
+                            <TextView
+                                android:id="@+id/staff_txt_dash"
+                                style="@style/dash_txt"
+                                android:text="@string/staff" />
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            style="@style/linear_2"
+                            android:background="@color/light_bluefade"
+                            android:orientation="vertical"
+                            app:corner_radius="16dp">
+
+                            <ImageView
+                                android:id="@+id/exam_img_dash"
+                                style="@style/dash_img"
+                                android:src="@drawable/exam_img" />
+
+                            <TextView
+                                android:id="@+id/exam_txt_dash"
+                                style="@style/dash_txt"
+                                android:text="@string/exam" />
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            style="@style/linear_2"
+                            android:background="@color/light_green"
+                            android:orientation="vertical"
+                            app:corner_radius="16dp">
+
+                            <ImageView
+                                android:id="@+id/timetable_img_dash"
+                                style="@style/dash_img"
+                                android:src="@drawable/timetable_img" />
+
+                            <TextView
+                                android:id="@+id/timetable_txt_dash"
+                                style="@style/dash_txt"
+                                android:text="@string/time_table" />
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            style="@style/linear_2"
+                            android:background="@color/light_orange"
+                            android:orientation="vertical"
+                            app:corner_radius="16dp">
+
+                            <ImageView
+                                android:id="@+id/lib_img_dash"
+                                style="@style/dash_img"
+                                android:src="@drawable/library_img" />
+
+                            <TextView
+                                android:id="@+id/lib_txt_dash"
+                                style="@style/dash_txt"
+                                android:text="@string/library" />
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            style="@style/linear_2"
+                            android:background="@color/red"
+                            android:orientation="vertical"
+                            app:corner_radius="16dp">
+
+                            <ImageView
+                                android:id="@+id/gallary_img_dash"
+                                style="@style/dash_img"
+                                android:src="@drawable/gallery_img" />
+
+                            <TextView
+                                android:id="@+id/gallary_txt_dash"
+                                style="@style/dash_txt"
+                                android:text="@string/gallary" />
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            style="@style/linear_2"
+                            android:background="@color/bit_dark_yellow"
+                            android:orientation="vertical"
+                            app:corner_radius="16dp">
+
+                            <ImageView
+                                android:id="@+id/review_img_dash"
+                                style="@style/dash_img"
+                                android:src="@drawable/review_img" />
+
+                            <TextView
+                                android:id="@+id/review_txt_dash"
+                                style="@style/dash_txt"
+                                android:text="@string/review" />
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            style="@style/linear_2"
+                            android:background="@color/aqua_fade"
+                            android:orientation="vertical"
+                            app:corner_radius="16dp">
+
+                            <ImageView
+                                android:id="@+id/help_img_dash"
+                                style="@style/dash_img"
+                                android:src="@drawable/help_img" />
+
+                            <TextView
+                                android:id="@+id/help_txt_dash"
+                                style="@style/dash_txt"
+                                android:text="@string/help" />
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </RelativeLayout>
+
+</FrameLayout>
